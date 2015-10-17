@@ -76,6 +76,12 @@ Percentage of the requests served within a certain time (ms)
 
 Now, if you want to dive into this a little deeper, start by watching the [Introduction to Node.js](https://www.youtube.com/watch?v=jo_B4LTHi3I) by Ryan Dahl or open up the `slow-but-responsive.js` file and make that little server a little more complex.
 
+## Videos
+
+- [The first presentation on Node.js at JSConf](https://www.youtube.com/watch?v=ztspvPYybIY)
+- [Introduction to Node.js at the SF PHP Meetup](https://www.youtube.com/watch?v=jo_B4LTHi3I)
+- [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Jan Raasch](http://janraasch.com)
