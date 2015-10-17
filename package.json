@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "lazy-node",
+  "version": "1.0.0",
+  "description": "Goes to show how great the non-blocking I/O model of Node.js really is",
+  "main": "slow-but-responsive.js",
+  "keywords": ["non-blocking I/O", "single-threaded", "event-driven"],
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "repository": "janraasch/lazy-node",
+  "author": {
+    "name": "Jan Raasch",
+    "email": "jan@janraasch.com",
+    "url": "http://janraasch.com"
+  },
+  "license": "MIT"
+}
