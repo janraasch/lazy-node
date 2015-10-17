@@ -7,14 +7,16 @@ let requests = 0
 function answer(n, req, res) {
   console.log(`${n}: Request numero ${n} just came in.`)
   console.log(`${n}: I do not feel like answering right away though...`)
+  res.writeHead(200, { 'content-type': 'text/plain' })
+  res.write(`You are number ${n} in our call-in line. Please be patient.\n`)
+
 
   // `setTimeout`...
   // just imagine a couple of network calls
   // or other I/O operations happening here
   setTimeout(() => {
     console.log(`${n}: Alright, alright. I'll answer ${n} now.`)
-    res.writeHead(200, { 'content-type': 'text/plain' })
-    res.end(`Hi there, ${n}. What's up?`)
+    res.end(`Hi there, ${n}. What's up?\n`)
   }, waitTime)
 }
 
